@@ -461,7 +461,7 @@
 /* Quiz CSS End */
 /* Quiz Table CSS Start */
 #simple_table {
-    font-family: arial, sans-serif;
+    /* font-family: arial, sans-serif; */
     border-collapse: collapse;
     width: 100%;
     background-color: #ffffff;
