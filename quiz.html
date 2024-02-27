@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bdclassnotes/mcq@main/style.css">
+
+</head>
+
+<body>
+    <!-- Quiz -->
+
+    <script src="op.js"></script>
+    <!-- quiz  -->
+
+
+
+    <div class="quiz-home-box custom-box show">
+        <p>
+
+        </p>
+        <table id="simple_table">
+            <tbody>
+                <tr>
+                    <th>বিষয়</th>
+                    <th>জিকে</th>
+                </tr>
+                <tr>
+                    <td>পর্ব</td>
+                    <td>৩৪৮</td>
+                </tr>
+                <tr>
+                    <td>প্রশ্ন সংখ্যা</td>
+                    <td>৪০টি</td>
+                </tr>
+                <tr>
+                    <td>পূর্ণমান</td>
+                    <td>৪০</td>
+                </tr>
+                <tr>
+                    <td>সময়</td>
+                    <td>৬০সে./প্রশ্ন</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="start-quiz-qbtn qbtn" type="button">Start The Quiz</button>
+        <p></p>
+    </div>
+    <div class="quiz-box custom-box">
+        <div class="stats">
+            <div class="quiz-time">
+                <div class="remaining-time"></div>
+                <span class="time-up-text">Time's Up</span>
+            </div>
+            <div class="score-board">
+                <span class="score-text">score:</span>
+                <span class="correct-answer"></span>
+            </div>
+        </div>
+        <div class="question-box">
+            <div class="current-question-num"></div>
+            <div class="question-text"></div>
+        </div>
+        <div class="option-box"></div>
+        <div class="answer-description"></div>
+        <div class="next-question">
+            <button class="next-question-qbtn qbtn" type="button">Next question</button>
+            <button class="see-result-qbtn qbtn" type="button">See Your Result</button>
+        </div>
+    </div>
+    <div class="quiz-over-box custom-box">
+        <h2>মকটেস্ট ফলাফল</h2>
+        <p>
+            মোট প্রশ্ন সংখ্যা:
+            <span class="total-questions"></span>
+        </p>
+        <p>
+            উত্তর দিয়েছেন: <span class="total-attempt"></span>
+        </p>
+        <p>সঠিক উত্তর: <span class="total-correct"></span></p>
+        <p>ভুল উত্তর: <span class="total-wrong"></span></p>
+        <p>Percentage: <span class="percentage"></span></p>
+        <button class="start-again-quiz-qbtn qbtn" type="button">Start Again</button>
+        <button class="go-home-qbtn qbtn" type="button">Go To Home</button>
+        <button class="go-home-qbtn qbtn" type="button">
+            <a href="#" target="_blank" rel="noopener"><span style="color: white;">telegram</span></a>
+        </button>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
